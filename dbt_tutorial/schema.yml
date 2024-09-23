@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: prep_option_history
+    columns:
+      - name: symbol
+        data_tests:
+          - unique
+  - name: prep_ticker_history
+    columns:
+      - name: symbol
+        data_tests:
+          - unique
+  - name: prep_ticker_info
+    columns:
+      - name: symbol
+        data_tests:
+          - unique
